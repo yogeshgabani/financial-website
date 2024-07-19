@@ -1,0 +1,1352 @@
+.bg-image {
+    background: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main {
+    padding: 24px 0;
+}
+.menu-header ul li {
+    padding: 16px 8px;
+}
+.contry-main i{
+    padding-left: 5px;
+}
+.menu-icon {
+    display: none;
+}
+.menu-header ul li:hover {
+    border-bottom: 1px solid #4096FB;
+    cursor: pointer;
+    color: #4096FB;
+}
+.main-header-menu {
+    padding: 24px 0 72px 0;
+}
+.title-header h1 {
+    padding-bottom: 17px;
+}
+.title-header {
+    width: 100%;
+}
+.title-header p {
+    line-height: 24px;
+}
+.header-text-title {
+    width: 90%;
+}
+.btn-header-title {
+    padding-top: 48px;
+}
+.news-photo {
+    width: 100%;
+}
+.news-image {
+    position: relative;
+}
+.img-news {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.total-payout-table {
+    box-shadow: 0px 0px 4px 6px #191919;
+    border: 1px solid #262626;
+    background-color: #141414;
+    overflow-x: auto;
+    padding: 10px;
+
+}
+.payout-box {
+    border: 1px solid #262626;
+    background: #1A1A1A;
+    padding: 30px 16px 30px 16px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+.payout-box h2{
+    padding-bottom: 16px;
+}
+.payout-box::after {
+    content: "\2197";
+    top: 10px;
+    right: 20px;
+    position: absolute;
+    color: #4D4D4D;
+    font-size: 40px;
+}
+.phase-process {
+    padding: 110px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phase-evolution {
+    background-color: #131313;
+    border: 0.5px solid #1E1E1F;
+    padding: 16px;
+    border-radius: 100px;
+    width: 515px;
+}
+.title-phase {
+    padding-bottom: 48px;
+}
+.phase-one {
+    padding: 8px 36px;
+    width: 100%;
+    position: relative;
+}
+.phase-one h1, .phase-two h1 {
+    font-family: "Ultra", serif;
+    font-size: 40px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #AA30FF 10%, #2E81E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.phase-two {
+    border: 1px solid #2E81E1;
+    padding: 8px 36px;
+    border-radius: 100px;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sub-phase-box {  
+    background-color: #171717;
+    padding: 48px 32px;
+    width: 312px;
+    height: 280px;
+    border-radius: 8px;
+}
+.phase-box-main {
+    padding: 32px 38px 110px 38px;
+}
+.phase-box-one {    
+    position: relative;
+    background: linear-gradient(130.9deg, #AA30FF 5.61%, rgba(130, 74, 245, 0) 26.94%, rgba(83, 105, 234, 0) 77.12%, #2E81E1 96.79%);
+    padding: 1px;
+    border-radius: 8px;
+    width: 314px;
+    height: 282px;
+  }
+  .phase-box-two {    
+    position: relative;
+    background: linear-gradient(119.52deg, #2E81E1 0%, rgba(79, 107, 233, 0) 32.6%, rgba(132, 73, 246, 0) 68.65%, #AA30FF 98.78%);
+    padding: 1px;
+    border-radius: 8px;
+    width: 314px;
+    height: 282px;
+  }
+
+  .phase-box-one::after, .phase-box-two::after {
+    content: "\2192";
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    font-size: 30px;
+    background: linear-gradient(180deg, #AA30FF 0%, #2E81E1 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .phase-box-one h1, .phase-box-two h1 {
+    padding-bottom: 18px;
+  }
+  .phase-box-one p, .phase-box-two p {
+    line-height: 24px;
+  }
+  .price-list {
+    background-color: #282828;
+    padding: 10px 16px;
+    border-radius: 8px;
+  }
+  .price-list p, .subscribe-box {
+    padding: 10px 16px;
+  }
+  .evolution-table {
+    padding: 48px 80px 72px 80px;
+  }
+  .evallution-title {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .evallution-title h1{
+    padding: 10px;
+    position: relative;
+    background: #171717; 
+    line-height: 30px;
+    width: max-content;
+  }
+  .evallution-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    z-index: -1;
+  }
+  .evallution-title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .table-data-one {
+    border-collapse: collapse;
+  }
+  .table-data-one, .table-data-two {
+    width: 100%;
+  }
+  
+  .table-data-one td, th {
+    text-align: left;
+    padding: 14px 8px;
+    /* width: 100%; */
+  }
+  .table-data-one tr {
+    border-bottom: 1px solid #1F1F1F;
+  }
+  .table-data-one tr:hover {
+    background-color: #1F1F1F;
+    cursor: pointer;
+}
+.border-refund-btn {
+    /* border-image: linear-gradient(to right, #2E81E1, #AA30FF) 1; */
+    width: 100%;
+    height: 50px;
+    border: double 1px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(#171717, #171717), linear-gradient(to right, #2E81E1, #AA30FF);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.refund-btn {
+    padding-top: 22px;
+}
+.acc-box {
+    padding-top: 48px;
+}
+.account-number {
+    width: max-content;
+}
+.account-number h1{
+    font-family: "Ultra", serif;
+    font-size: 40px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #AA30FF 10%, #2E81E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.account-number p{
+    line-height: 5px;
+}
+.challenge-btn {
+    width: 150px;
+}
+.main-box-two {
+    position: relative;
+    overflow: hidden;
+}
+.blur-blue-img img {
+    position: absolute;
+    top: 20%;
+    left: -30px;
+}
+.blur-blue-img-right img {
+    position: absolute;
+    bottom: -35%;
+    right: -40px;
+}
+.update-box-two {
+    padding: 76px 90px;
+    position: relative;
+    overflow: hidden;
+}
+.update-text h1 {
+    padding-bottom: 36px;
+}
+.update-text p {
+    padding-bottom: 36px;
+    line-height: 24px;
+}
+.trading-objective {
+    padding: 20px 40px;
+    background:#262626;
+    border-radius: 15px;
+    width: 100%;
+}
+.trading-title {
+    padding-bottom: 20px;
+}
+.on-going {
+    background-color: #353240;
+    width: max-content;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.progress-one h1 {
+    font-size: 18px;
+}
+.progress-one p {
+    line-height: 24px;
+    font-size: 14px;
+}
+.progress-watch {
+    width: 35px; 
+    height: 35px; 
+    background-color: #453232;
+    border-radius: 50%;
+}
+.progress-watch-green {
+    width: 35px; 
+    height: 35px; 
+    background-color: #263330;
+    border-radius: 50%;
+}
+.progress-bar {
+    padding: 10px;
+}
+.pro-bar-border {
+    border-bottom: 1px solid #323232;
+    border-top: 2px solid #323232;
+}
+.vector-one img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.update-text, .trading-objective {
+    z-index: 1;
+}
+.vector-two img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.account-box {
+    padding: 72px 80px;
+    position: relative;
+    overflow: hidden;
+}
+.account-title {
+    padding-bottom: 48px;
+}
+.box-phase h2 {
+    padding-bottom: 16px;
+}
+.phase-one-box {
+    background: #202020;
+    padding: 4px 48px;
+    border-radius: 50px;
+    width: max-content;
+}
+.phase-two-box {
+    border: 1px solid #2E81E1;
+    background: #2E81E11A;
+    padding: 4px 48px;
+    border-radius: 50px;
+    width: max-content;
+}
+.balance {
+    position: relative;
+    padding-bottom: 16px;
+}
+.bal-img img {
+    position: absolute;
+    right: 25%;
+    top: 0;
+}
+.table-three-main {
+    background: #202020;
+    padding: 16px 40px;
+    border-radius: 16px;
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+.table-three tr th, .table-three tr td {
+    padding: 16px 5px;
+} 
+.table-three tr td {
+    border-top: 1px solid #3A3A3A;
+}
+.table-three th{
+    width: unset I !important;
+}
+.table-three tr:hover {
+    background-color: #171717;
+}
+.img-table-three {
+    position: absolute;
+    left: -100px;
+    top: 90px;
+}
+.important-box, .dashboard-box {
+    padding: 84px 176px;
+    background: #1B1B1B;
+    overflow: hidden;
+    position: relative;
+}
+.scall-box {
+    padding: 28px 23px;
+    border: 1px solid #F1F1F14D;
+    border-radius: 16px;
+    /* width: max-content; */
+    z-index: 1;
+}
+.scall-box i, .scall-box h1 {
+    padding-bottom: 16px;
+}
+.scall-box p {
+    line-height: 20px;
+}
+.box-scalling {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.scall-img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.chart-detail-two{
+    width: 500px;
+    background: #1C1C1C;
+    border-radius: 16px;
+    padding:  20px;
+}
+.chart-detail-one {
+    background: #1C1C1C;
+    border-radius: 16px;
+    width: 100%;
+    padding: 20px;
+}
+.current-title {
+    padding-bottom: 75px;
+}
+.sun-box {
+    background: #00000066;
+    padding: 5px 10px 5px 5px;
+    border-radius: 25px;
+}
+.current-progress {
+    padding: 20px 0;
+}
+.chart-progress-box {
+    padding-top: 60px;   
+    position: relative;
+    z-index: 1;
+}
+.chart-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.chart{
+    width: 100% !important;
+    height: 330px !important;
+}
+.community-page {
+    background: #171717;
+    padding: 67px 0 100px 0;
+    overflow: hidden;
+    position: relative;
+}
+.commu-text-box {
+    width: 500px;
+}
+.commu-text-box h1 {
+    line-height: 65px;
+}
+.commu-text-box p {
+    padding: 38px 0;
+    color:#A9A6A6;
+}
+.join-btn {
+    display: flex;
+    margin: auto;
+}
+.comuunity-img img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* .eclipse-circle {
+    position: relative;
+} */
+.eclipse-circle-one {
+    position: relative;
+    width: 700px;
+}
+.eclipse-one {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transform: translate(-50%, 0);
+}
+.eclipse-two  {
+    position: absolute;
+    top: 250px;
+    left: 22px;
+    transform: translate(-50%, 0);
+}
+.eclipse-three  {
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    transform: translate(-50%, 0);
+}
+.eclipse-four  {
+    position: absolute;   
+    bottom: 25px;
+    right: 150px;
+    transform: translate(0, -50%);
+}
+.eclipse-five  {
+    position: absolute;   
+    bottom: 200px;
+    right: 5px;
+    transform: translate(0, -50%);
+}
+.eclipse-six  {
+    position: absolute;   
+    top: 70px;
+    right: -10px;
+    transform: translate(0, -50%);
+}
+.one-circle {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eclipse-circle-two {
+    position: relative;
+    width: 1043px;
+}
+.img-two {
+    display: none;
+}
+.two-circle {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.eclipse-two-one {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transform: translate(-50%, 0);
+}
+.eclipse-two-two  {
+    position: absolute;
+    top: 230px;
+    left: 15px;
+    transform: translate(-50%, 0);
+}
+.eclipse-two-three  {
+    position: absolute;    
+    bottom: 150px;
+    left: 80px;
+    transform: translate(-50%, 0);
+}
+.eclipse-two-four  {
+    position: absolute;   
+    bottom: 100px;
+    right: 85px;
+    transform: translate(0, -50%);
+}
+.eclipse-two-five  {
+    position: absolute;   
+    bottom: 200px;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+.eclipse-two-six  {
+    position: absolute;   
+    bottom: 332px;
+    right: -15px;
+    transform: translate(0, -50%);
+}
+.eclipse-two-seven  {
+    position: absolute;   
+    top: 50px;
+    right: -10px;
+    transform: translate(0, -50%);
+}
+
+.eclipse-circle-three {
+    position: relative;
+    width: 1340px;
+}
+.img-four {
+    display: none;
+}
+.three-circle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.eclipse-three-one {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transform: translate(-50%, 0);
+}
+.eclipse-three-two  {
+    position: absolute;
+    top: 310px;
+    left: 40px;
+    transform: translate(-50%, 0);
+}
+.eclipse-three-three  {
+    position: absolute;   
+    bottom: 110px;
+    right: 40px;
+    transform: translate(0, -50%);
+}
+.eclipse-three-four  {
+    position: absolute;   
+    bottom: 332px;
+    right: -5px;
+    transform: translate(0, -50%);
+}
+.eclipse-three-five  {
+    position: absolute;   
+    top: 50px;
+    right: -30px;
+    transform: translate(0, -50%);
+}
+
+.footer-box {
+    background: #1B1B1B;
+}
+.footer-logo h1, .footer-logo p {
+    padding-bottom: 27px;
+}
+.list-menu h1 {
+    padding: 24px 0 !important;
+    color: #4096FB;
+
+}
+.list-one li:hover , .list-two li:hover {
+    color: #4096FB;
+    border-bottom:1px solid #4096FB;;
+    cursor: pointer;
+}
+.subscribe-box {
+    background: #171717;
+    border-radius: 8px;
+    padding: 28px 16px;
+
+
+}
+.subscribe-box input {
+    background: #202020;
+    padding: 20px 16px;
+    border-radius: 16px;
+    outline: none;
+    width: 100%;
+}
+.input-send {
+    position: relative;
+
+}
+.subscribe-box input::placeholder {
+    font-size: 16px;
+    color: #F1F1F180;
+}
+/* .input-send::after {
+    content: "\27A4";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(92.65deg, #2E81E1 -11.91%, #AA30FF 105.64%);
+    width: 44px;
+    height: 44px;
+} */
+.subscribe-box h1 {
+    padding-bottom: 16px;
+}
+.submit-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    background: linear-gradient(92.65deg, #2E81E1 -11.91%, #AA30FF 105.64%);
+}
+.copy-right {
+    background: #171717;
+    padding: 36px 0; 
+}
+
+
+
+
+
+
+@media (max-width:1299px) {
+    .title-header h1 {
+        font-size: 40px;
+    }
+    .btn-header-title {
+        padding-top: 30px;
+    }
+    .total-payout-table {
+        padding: 10px;
+    }
+    .payout-box::after {
+        top: 5px;
+        right: 15px;
+        font-size: 30px;
+    }  
+    .trading-objective, .update-text {
+        width: 100%;
+    }
+    .trading-objective {    
+        padding: 20px;
+    }
+    .update-box-two {
+        padding: 50px 40px;
+        gap: 10px;
+    }
+    .progress-bar {
+        padding: 10px 0px;
+    }
+    .box-scalling {
+        grid-template-columns: 1fr 1fr;
+    }
+    .list-menu ul {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .menu-header ul {
+        gap: 0;
+    }
+    .menu-header ul li {
+        padding: 10px 8px;  
+    }
+    .btn-header-title, .menu-header ul, .box-account {
+        flex-wrap: wrap;
+    }
+    .box-padding {
+        padding:  24px 40px;
+    }
+    .news-image {
+        gap: 10px;
+    }
+    .client-btn{
+        padding: 10px 20px;
+    }
+    .table-scroll {
+        min-width: 1024px;
+    }
+    .trading-title h1 {
+        font-size: 20px;
+    }
+    .on-going h1, .progress-two::after , .progress-three::after, .progress::after {
+        font-size: 14px;
+    }
+    .progress-one h1 {
+        font-size: 16px;
+    }
+    .progress-two, .progress, .progress-three {
+        height: 10px;
+        width: 150px;
+    }
+    .progress-value-two, .progress-value, .progress-value-three {
+        height: 10px;
+    }
+    .update-text h1, .update-text p {
+        padding-bottom: 20px;
+    }
+    .box-phase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .important-box, .dashboard-box {
+        padding: 60px 60px;
+    }
+}
+    
+@media (max-width:992px) {
+    .menu-header{
+        display: none;
+    }
+    .main-header-menu, .phase-box-main, .update-box-two {
+        flex-wrap: wrap;
+    }
+    .news-photo {
+        padding-top: 40px;
+    }
+    .evallution-title h1 {
+        font-size: 25px;
+    }
+    .table-data-one td, th {
+        font-size: 16px;
+    }
+    .evolution-table {
+        padding: 0 30px 50px 30px;
+    }
+    .progress-two, .progress, .progress-three {
+        width: 250px;
+    }
+    .update-box-two {
+        gap: 20px;
+    }
+    .update-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .account-box {
+        padding: 30px 30px;
+    }
+    }
+
+@media (max-width:768px) {
+    .flag-section {
+        gap: 10px;
+    }
+    .box-padding {
+        padding: 15px 20px;
+    }
+    .client-btn {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .phase-process {
+        padding: 80px 0;
+    }
+    .phase-evolution {
+        width: 100%;
+        padding: 8px 16px;
+    }
+    .price-list {
+        padding: 5px 10px;
+        margin-bottom: 20px;
+    }
+    .price-list p {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .data-main-table, .chart-progress-box, .footer-box {
+        flex-wrap: wrap;
+    }
+    .evolution-table {
+        padding: 0 20px 30px 20px;
+    }
+    .progress-two, .progress, .progress-three {
+        width: 200px;
+    }
+    .table-three-main {
+        padding: 0px 10px;
+    }
+    .slider-range {
+        padding: 0 30px;
+    }
+    .account-box {
+        padding: 0 0 40px 0;
+    }
+    .table-three-main table  {
+        overflow-x: scroll;
+        min-width: 800px;
+    }
+    .table-three-main {
+        overflow-x: scroll;
+    }
+    .box-scalling {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .chart-progress-box {
+        padding-top: 20px;
+    }
+    .chart-detail-two {
+        width: 100%;
+    }
+    .current-title {
+        padding-bottom: 30px;
+    }
+    .footer-box {
+        padding: 20px;
+    }
+    .subscribe-box input {
+        padding: 10px 10px;
+    }
+    .submit-icon {
+        right: 10px;
+        top: 7px;
+        width: 30px;
+        height: 30px;
+    }
+    .subscribe-box {
+        padding: 20px 16px;
+    }
+    .footer-logo p {
+        font-size: 14px;
+    }
+    .community-page {
+        padding: 72px 0 153px 0;
+    }
+    .commu-text-box {
+        width: 300px;
+    }
+    .commu-text-box h1 {
+        line-height: 33px;
+        font-size: 28px;
+    }
+    .commu-text-box p {
+        padding: 10px 0;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .commu-text-box {
+        z-index: 1;
+    }
+    .eclipse-circle-one {
+        width: 500px;
+    }
+    .one-circle {
+        top: 23%;
+    }
+    .eclipse-two {
+        left: 67px;
+    }
+    .eclipse-three {
+        bottom: -15px;
+    }
+    .eclipse-four {
+        right: 80px;
+    }
+    .eclipse-five {
+        top: 180px;
+    }
+    .eclipse-six {
+        top: 60px;
+        right: -15px;
+    }
+    .img-one {
+        display: none;
+    }
+    .img-two {
+        display: block;
+    }
+    .two-circle {
+        top: 30%;
+    }
+    .eclipse-circle-two {
+        width: 650px;
+    }
+    .eclipse-two-one {
+        top: 160px;
+        left: 5px;
+        width: 30px;
+    }
+    .eclipse-two-two {
+        left: 55px;
+        top: 280px;
+        width: 30px;
+    }
+    .eclipse-two-three {
+            left: 185px;
+            bottom: 20px;    
+        width: 30px;
+
+    }
+    .eclipse-two-four {
+        right: 130px;
+        bottom: 15px;
+    }
+    .eclipse-two-five {
+        top: 290px;
+        right: 44px;
+    }
+    .eclipse-two-six {
+        top: 190px;
+        right: -7px;
+    }
+    .eclipse-two-seven {
+        top: 115px;
+        right: -14px;
+    }
+    .img-three {
+        display: none;
+    }
+    .img-four {
+        display: block;
+    }
+    .three-circle {
+        top: 37%;
+    }
+    .eclipse-circle-three {
+        width: 732px;
+    }
+    .eclipse-three-one {
+        top: 110px;
+        width: 30px;
+    }
+    .eclipse-three-two {
+        left: 130px;
+        top: 393px;
+        width: 30px;
+    }
+    .eclipse-three-three {
+        bottom: 10px;
+        right: 190px;
+        width: 30px;
+    }
+    .eclipse-three-four {
+        top: 300px;
+        right: 35px;
+        width: 30px;
+    }
+    .eclipse-three-five {
+        top: 115px;
+        right: -14px;
+        width: 30px;
+    }
+   
+
+}
+
+@media (max-width:576px) {
+    .logo-font h1 {
+        font-size: 16px;
+    }
+    .contry-main p, .title-header p, .phase-one p, .phase-two p, .table-data-one td, th {
+        font-size: 14px;
+    }
+    .title-header h1 {
+        font-size: 24px;
+    }
+    .title-header p, .contry-main i, .menu-icon i, .progress-one p, .on-going h1 {
+        font-size: 12px !important;
+    }
+    .contry-main img {
+        width: 16px;
+    }
+    .flag-section, .contry-main {
+        gap: 5px;
+    }
+    .title-phase p{
+        font-size: 18px;
+    }
+
+    .news-image img {
+        width: 168px;
+        height: 234px;
+    }
+    .img-news img {
+        width: 200px;
+        height: 265px;
+    }
+    .buy-btn {
+        display: none;
+    }
+    .main-header-menu, .header-text-title {  
+        width: 100%;
+        text-align: center;
+    }
+    .get-btn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .title-header h1, .phase-one h1, .phase-two h1 {
+        font-size: 30px;
+    }
+    .title-header p{
+        line-height: 20px;
+    }
+    .total-payout-table {
+        padding: 10px 10px 10px 10px;
+    }
+    .table-scroll {
+        gap: 10px;
+    }
+    .account-title {
+        padding: 20px 0;
+    }
+    .phase-two {
+        padding: 6px 16px;
+    }
+    .phase-one {
+        padding: 8px 20px;
+    }
+    .phase-box-main {
+        padding: 32px 38px 60px 38px;
+    }
+    .phase-process, .update-box-two, .important-box, .dashboard-box {
+        padding: 30px;
+    }
+    .trading-title {
+        padding-bottom: 10px;
+    }
+    .progress-two, .progress, .progress-three {
+        width: 150px;
+    }
+    .progress-bar {
+        padding: 5px 0px;
+    }
+    .update-box-two {
+        padding: 20px;
+    }
+    .trading-title h1 {
+        font-size: 18px;
+    }
+    .current-progress {
+        padding: 10px 0;
+    }
+}
+
+
+@media (max-width:425px) {
+    .phase-evolution {
+        padding: 8px 16px;
+    }
+    .phase-evolution {
+        padding: 7px 16px;
+    }
+    .phase-one {
+        padding: 0 10px;
+    }
+    .phase-two {
+        padding: 1px 5px;
+    }
+    .phase-box-two, .phase-box-one  {
+        width: 285px;
+        height: 245px;
+    }
+    .sub-phase-box {
+        width: 282px;
+        height: 243px;
+        padding: 52px 32px 36px 32px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .phase-box-one p, .phase-box-two p {
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .phase-box-one h1, .phase-box-two h1 {
+        font-size: 18px;
+        text-align: center;
+        padding: 5px 10px;
+        
+    }    
+    .border-sub-phase {
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 1px;
+        border-image-source: linear-gradient(180deg, #2C64B0 0%, #AA30FF 100%);
+    }
+    .border-phase {
+        background: #171717;
+        width: max-content;
+    }
+    .phase-box-two::after, .phase-box-one::after {
+        top: 6px;
+        right: 20px;
+        font-size: 25px;
+    }
+    .total-payout-table {
+        padding: 10px;
+    }
+    .phase-box-main {
+        padding: 32px 38px 30px 38px;
+    }
+    .table-data-one td, th, .account-number p, .on-going h1  {
+        font-size: 12px !important;
+    }
+    .account-number h1, .scall-box i {
+        font-size: 30px;
+    }
+    .evallution-title h1 {
+        font-size: 20px;
+    }
+    .challenge-btn {
+        width: 130px;
+    }
+    .border-refund-btn {
+        height: 40px;
+    }
+    .acc-box {
+        padding-top: 20px;
+    }
+    .update-text h1 {
+        font-size: 18px;
+    }
+    .update-text p, .trading-title h1  {
+        font-size: 14px !important;
+    }
+    .bg-btn-blue {
+        padding: 10px 20px;
+    }
+    .update-box-two {
+        padding: 20px;
+    }
+    .trading-title h1 {
+        font-size: 18px;
+    }
+    .fa-clock:before {
+        font-size: 15px;
+    }
+    .progress-watch, .progress-watch-green {
+        width: 30px;
+        height: 30px;
+    }
+    .trading-objective, .scall-box {
+        padding: 20px 12px;
+    }
+    .progress-two, .progress, .progress-three {
+        width: 100px;
+    }
+    .important-box {
+        padding: 30px 10px;
+    }
+    .chart {
+        width: 102% !important;
+        height: 200px !important;
+    }
+    .update-box-two, .dashboard-box {
+        padding: 0px;
+    }
+    .footer-logo h1, .footer-logo p, .list-menu h1 {
+        text-align: center;
+    }
+    .list-menu ul {
+        flex-direction: column;
+    }
+    .social-img, .list-menu ul {
+        justify-content: center;
+    }
+    .commu-text-box h1 {
+        font-size: 18px;
+    }
+    .commu-text-box p {
+        font-size: 12px;
+    }
+    .one-circle {
+        top: 18%;
+    }
+    .eclipse-circle-one {
+        width: 280px;
+    }
+    .eclipse-one {
+        top: 20px;
+        width: 40px;
+    }
+    .eclipse-two {    
+        left: 16px;
+        top: 97px;
+        width: 20px;
+    }
+    .eclipse-three {
+        bottom: -14px;
+        left: 80px;
+        width: 30px;
+    }
+    .eclipse-four {
+        bottom: -8px;
+        width: 30px;
+    }
+    .eclipse-five {
+        top: 96px;
+        width: 20px;
+    }
+    .eclipse-six {
+        width: 30px;
+    }
+    .eclipse-circle-two {
+        width: 400px;
+    }   
+    .two-circle {
+        top: 23%;
+    }
+    .eclipse-two-one {
+        top: 65px;
+        width: 30px;
+    }
+    .eclipse-two-two {    
+        left: 18px;
+        top: 149px;
+        width: 20px;
+    }
+    .eclipse-two-three {
+        bottom: 25px;
+        left: 80px;
+        width: 30px;
+    }
+    .eclipse-two-four {
+        bottom: -10px;
+        width: 30px;
+        right: 92px;
+    }
+    .eclipse-two-five {
+        top: 200px;
+        width: 20px;
+    }
+    .eclipse-two-six {
+        top: 150px;
+        width: 30px;
+        right: 10px;
+    }
+    .eclipse-two-seven {
+        top: 88px;
+        right: -14px;
+        width: 30px;
+    }
+    .eclipse-circle-three {
+        width: 535px;
+    }   
+    .three-circle {
+        top: 27%;
+    }
+    .eclipse-three-one {
+        left: 110px;
+        top: 300px;
+    }
+    .eclipse-three-two {    
+        left: 195px;
+        top: 340px;
+        width: 30px;
+    }
+    .eclipse-three-three {
+        top: 346px;
+    }
+    .eclipse-three-four {
+        top: 150px;
+        right: 10px;
+    }
+    .eclipse-three-five {
+        top: 306px;
+        right: 90px;
+    }
+}

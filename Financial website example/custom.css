@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: "Urbanist", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
+}
+.align-start {
+    align-items: start;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-around {
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+.ga-10 {
+    gap: 10px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px !important;
+}
+.gap-30 {
+    gap: 30px;
+}
+.gap-40 {
+    gap: 40px;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.font-size-16 {
+    font-size: 16px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-20 {
+    font-size: 20px;
+}
+.font-size-24 {
+    font-size: 24px;
+}
+.font-size-32 {
+    font-size: 32px;
+}
+.font-size-36 {
+    font-size: 36px;
+}
+.font-size-48 {
+    font-size: 48px;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.width-100 {
+    width: 100%;
+}
+.py-80 {
+    padding: 0 80px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.box-padding {
+    padding: 24px 80px;
+}
+.text-white {
+    color: #ffffff;
+}
+.bg-btn-blue {
+    background: linear-gradient(92.59deg, #2E81E1 -4.44%, #AA30FF 110.87%);
+    padding: 16px 36px;
+    border: transparent;
+    border-radius: 6px;
+}
+.border-blue-btn {
+    /* border: 1px solid linear-gradient(91.13deg, #2E81E1 -4.41%, #AA30FF 104.68%); */
+    /* border-image: linear-gradient(to right, #2E81E1, #AA30FF) 1; */
+    width: 180px;
+    height: 50px;
+    border: double 2px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(#0f1624, #0f1624), 
+                      linear-gradient(to right, #2E81E1, #AA30FF);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
+/* scrool bar */
+.total-payout-table::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px;
+  }
+  .total-payout-table::-webkit-scrollbar-track {
+    background: #202020; 
+  }
+.total-payout-table::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #377AE3 0%, #9A3AFB 100%);;
+  }
+.total-payout-table::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+  }
+
+  /* progess bar */
+
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 15px;
+    width: 200px;
+  }
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FF7784;
+    height: 15px;
+    width: 0;
+  }
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 20%; }
+  }
+  .progress::after {
+    content: "-1.8%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    color: #FF7784;
+  }
+
+  .progress-two {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 15px;
+    width: 200px;
+  }
+  .progress-value-two {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FF7784;
+    height: 15px;
+    width: 0;
+  }
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+  .progress-two::after {
+    content: "-5.4%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    color: #FF7784;
+  }
+
+  .progress-three {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 15px;
+    width: 200px;
+  }
+  .progress-value-three {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #149471;
+    height: 15px;
+    width: 0;
+  }
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  .progress-three::after {
+    content: "7.4%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    color: #149471;
+  }
+
+  /* renge css */
+
+.input-renge-theme{
+    width: 100%;
+    accent-color: #9B3AFB;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+
+    border-radius: 1rem;
+    border: 1px solid hsl(228, 71%, 14%);
+    background: #2E3F53;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    /* background: hsl(228, 71%, 14%); */
+    border-radius: 1rem;
+    height: 16px;
+
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 16px;
+    position: relative;
+    z-index: 1;
+    width: 1rem;
+    background-color: #9B3AFB;
+    border-radius: 50%;
+    box-shadow: 
+    -50rem 0 5rem 20rem hsl(275.36deg 100% 59.41%),
+                -40rem 0 5rem 30rem hsl(261, 95%, 44%),
+                -30rem 0 2rem 25rem hsl(275.36deg 100% 59.41%),
+                -25.5rem 0 0 25rem  hsl(261, 95%, 44%);
+}
+.renge-stap{
+    position: relative;
+}
+.renge-stap::after{
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: 26px;
+    width: 3px;
+    height: 16px;
+    background-color: #425A76;
+}
+
+
+/* progress bar three */
+.current-income {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+  }
+  .current-income-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: linear-gradient(268.5deg, #FB03F5 -11.69%, #AA9CFF 112.48%);
+    height: 10px;
+    width: 0;
+  }
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 71.68%; }
+  }
+  .current-income::after {
+    content: "71.68%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    font-size: 12px;
+  }
+
+  /* progress bar four */
+.current-spends {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+  }
+  .current-spends-value {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #5CFF9C 0%, #00FFA3 100%);
+    height: 10px;
+    width: 0;
+  }
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 51.68%; }
+  }
+  .current-spends::after {
+    content: "51.68%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    font-size: 12px;
+  }
+
+ /* progress bar five */
+ .current-install {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+  }
+  .current-install-value {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: linear-gradient(268.5deg, #FB035C -11.69%, #FA9FA5 112.48%);
+
+    height: 10px;
+    width: 0;
+  }
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 61.68%; }
+  }
+  .current-install::after {
+    content: "61.68%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    font-size: 12px;
+  }
+
+   /* progress bar six */
+.current-invest {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+  }
+  .current-invest-value {
+    animation: load4 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #5CFF9C 0%, #00FFA3 100%);
+    height: 10px;
+    width: 0;
+  }
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 81.68%; }
+  }
+  .current-invest::after {
+    content: "81.68%";
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    font-size: 12px;
+  }
+
